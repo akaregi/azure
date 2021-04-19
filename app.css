@@ -1,0 +1,45 @@
+html {
+    --text: #393742;
+    --link: #2160be;
+}
+body {
+    max-width: 768px;
+
+    margin: 0 auto;
+    padding: 1rem;
+
+    font-family: "Segoe UI", "Arial Nova", "Helvetica", "Yu Gothic Medium", sans-serif;
+    font-size: 20px;
+
+    color: var(--text);
+    line-height: 1.47;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin: 2rem 0;
+}
+
+.title, .subtitle {
+    font-weight: normal;
+
+    line-height: 0.8;
+}
+
+.title {
+    font-size: 3rem;
+    padding: 2rem 0 1rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    padding: 1.5rem 0 1rem;
+}
