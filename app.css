@@ -1,20 +1,37 @@
 html {
     --text: #393742;
     --link: #2160be;
+    --bg: #fbfcff;
 }
+
 body {
-    max-width: 768px;
+    max-width: 720px;
 
     margin: 0 auto;
     padding: 1rem;
 
-    background-color: #fbfcff;
+    background-color: var(--bg);
 
-    font-family: "Josefin Slab", "Yu Gothic Medium", sans-serif;
+    font-family: "Roboto", "Yu Gothic Medium", sans-serif;
+    font-weight: 300;
     font-size: 24px;
 
     color: var(--text);
-    line-height: 1.47;
+    line-height: 1;
+}
+
+::selection {
+    background-color: var(--text);
+    color: var(--bg);
+}
+
+p {
+    hyphens: auto;
+    text-align: justify;
+}
+
+p, li {
+    line-height: 1.4;
 }
 
 a {
@@ -32,8 +49,6 @@ a:hover {
 
 .title, .subtitle {
     font-variant-caps: small-caps;
-
-    line-height: 0.8;
 }
 
 .title {
