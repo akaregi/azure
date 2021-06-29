@@ -47,8 +47,8 @@ a:hover {
     margin: 4rem 0;
 }
 
-.title, .subtitle {
-    font-variant-caps: small-caps;
+.title, .subtitle, strong {
+    font-weight: 500;
 }
 
 .title {
